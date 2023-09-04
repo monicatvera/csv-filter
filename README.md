@@ -12,10 +12,10 @@ Num _factura, Fecha, Bruto, Neto, IVA, IGIC, Concepto, CIF_cliente, NIF_cliente
 
 ## Test list
 List of possible tests that we want to do based on their difficulty:
-- [] A file with a single invoice where everything is correct should produce the same line as output.
-- [] A file with a single invoice where VAT and IGIC are filled in should eliminate the line.
-- [] A file with a single invoice where the net is incorrectly calculated should be deleted.
-- [] A file with a single invoice where CIF and NIF are filled in should eliminate the line
-- [] If the invoice number is repeated on multiple lines, all of them are deleted (leaving no lines).
-- [] An empty list will produce an empty list output.
-- [] A single line file is incorrect because it has no header.
+- [x] A file with a single invoice where everything is correct should produce the same line as output.
+- [x] A file with a single invoice where VAT and IGIC are filled in should eliminate the line.
+- [x] A file with a single invoice where the net is incorrectly calculated should be deleted.
+- [x] A file with a single invoice where CIF and NIF are filled in should eliminate the line
+- [x] If the invoice number is repeated on multiple lines, all of them are deleted (leaving no lines).
+- [x] An empty list will produce an empty list output.
+- [x] A single line file is incorrect because it has no header.
